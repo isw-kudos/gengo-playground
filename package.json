@@ -1,0 +1,24 @@
+{
+  "name": "gengo-playground",
+  "version": "0.0.1",
+  "description": "Play around with the Gengo translation service!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "Mark Donnellon <mdonnellon@isw.net.au> (https://www.linkedin.com/in/markdonnellon)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "gengo": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.4.0",
+    "eslint-config-esnext": "^3.0.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2"
+  }
+}
