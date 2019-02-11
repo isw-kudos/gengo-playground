@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "Mark Donnellon <mdonnellon@isw.net.au> (https://www.linkedin.com/in/markdonnellon)",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "gengo": "^1.0.3"
+    "gengo": "^1.0.3",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
